@@ -1,0 +1,393 @@
+@import url(hover-min.css);
+@import url(acquired.css);
+
+* {
+    cursor: none;
+}
+
+:root {
+    --purple: #bd7afb;
+    --xpurple: #301d40;
+    --xcolor: #040814;
+    --ycolor: #ffffff;
+    --purple2: #5d348d;
+    --pink: #ffacfc;
+    --gray: #A9A9A9;
+}
+
+.light-theme {
+    --xpurple: #bd7afb;
+    --purple: #5D54A4;
+    --ycolor: #040814;
+    --xcolor: #ffffff;
+    --purple2: #AA2EE6;
+    --pink: #fe019a;
+    --gray: #444444;
+}
+
+
+#icon {
+    cursor: pointer;
+}
+
+body {
+    background-color: var(--xcolor);
+    border: none;
+}
+
+.pinky {
+    color: var(--pink);
+}
+
+.pur2 {
+    color: var(--purple2);
+}
+
+.btn {
+    cursor: none !important;
+}
+
+.heading {
+    color: var(--purple);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+
+/******* Navbar *******/
+.navb {
+    padding: 0.8rem 3rem;
+    background-color: var(--xcolor);
+    color: var(--purple);
+}
+
+.navb img {
+    height: 3rem;
+}
+
+
+
+/******* left social *******/
+.socials {
+    position: fixed;
+    padding: 17rem 0 0 1rem;
+    font-size: 25px;
+}
+
+.socials a {
+    color: var(--purple2);
+}
+
+.socials a:hover {
+    text-decoration: none;
+    color: var(--pink);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.vl {
+    border: 2px dashed var(--purple);
+    width: 0;
+    height: 150rem;
+    margin-left: 2.8rem;
+}
+
+
+
+/******* Intro *******/
+#intro {
+    background-color: var(--xcolor);
+    color: var(--purple);
+    padding: 0 15rem 0 11rem;
+    height: 100vh;
+}
+
+.lftr {
+    float: right;
+}
+
+.lftr button {
+    float: right;
+    margin-right: 5rem;
+}
+
+.lftr h2 {
+    font-size: 60px;
+    font-family: 'Fresca', sans-serif;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+
+
+/******* Experience *******/
+#xp {
+    padding: 4rem 0;
+    background-color: var(--xpurple);
+    background-image: url(https://media.giphy.com/media/ofBBbnPbLXFSViWMWW/giphy.gif);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 130%;
+    height: 105vh;
+}
+
+
+
+/******* Skills *******/
+#skills {
+    padding: 4rem 0;
+    background-color: var(--xcolor);
+}
+
+.skil {
+    color: #fff;
+    background-color: var(--purple2);
+    height: 100%;
+    width: 88%;
+    border-radius: 15px;
+    padding: 3rem 0 4rem;
+    margin: auto;
+    margin-left: 7rem;
+    background-image: url(https://media.giphy.com/media/TDKjSUGGbTAup6w3FO/giphy.gif);
+    /* background-image: url(https://media.giphy.com/media/IbTagKCUqNhWg2gUKj/giphy.gif); */
+    background-position-x: 20%;
+    background-position-y: 40%;
+}
+
+.skil h4 {
+    margin: 1.5rem 0;
+    font-family: 'Fjord One', serif;
+}
+
+.shover{
+    transition: .5s linear
+}
+  
+.shover:hover{
+    color: #fff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff, 
+                 0 0 40px #fff;
+}
+
+.shover:after{
+    position:absolute;
+    top:100%;
+    left: 5%;
+    width:0;
+    height:10px;
+    background:#ffacfc;
+    display:block;
+    transition: width 0.5s ease-in-out;
+    border-radius: 10px;
+}
+
+.shover-right:after{
+    left: -95%;
+}
+
+.sh70:hover:after{
+    width:150%;
+    margin-top: 0.6rem;
+    content: "";
+}
+
+.sh80:hover:after{
+    width:170%;
+    margin-top: 0.6rem;
+    content: "";
+}
+
+.sh90:hover:after{
+    width:180%;
+    margin-top: 0.6rem;
+    content: "";
+}
+
+.sh95:hover:after{
+    width:190%;
+    margin-top: 0.6rem;
+    content: "";
+}
+
+
+
+/******* Projects *******/
+#projects {
+    padding: 4rem 0;
+    background-color: var(--xpurple);
+    height: 105%;
+}
+
+.listy li {
+    color: var(--pink);
+    display: inline;
+    margin-right: 2rem;
+    font-family: 'Galdeano', sans-serif;
+}
+
+.pro-ln {
+    font-size: 2rem;
+    margin-right: 3rem;
+    text-align: right;
+    color: var(--gray);
+}
+
+.pro-ln:hover {
+    text-decoration: none;
+    color: var(--ycolor);
+}
+
+
+
+/******* Contact *******/
+#contact {
+    padding: 5rem 0 0;
+    height: 100vh;
+    background-color: var(--xcolor);
+}
+
+#contact .heading {
+    margin-bottom: 2rem;
+}
+
+.con-main {
+    margin: 0;
+    color: var(--gray);
+    align-self: center;
+    /* background-image: url(https://media.giphy.com/media/c5EzCaqctWrwImlWDL/giphy.gif);  */
+    background-repeat: no-repeat;
+    background-position-y: 30%;
+    background-position-x: 50%;
+    font-size: 130%;
+}
+
+.ima {
+    position: relative;
+    left: 6rem;
+}
+
+.mq {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    * {
+        overflow-x: hidden;
+    }
+
+    /******* Navbar *******/
+    .navb {
+        padding: 0.8rem 0;
+    }
+
+    /******* left social *******/
+    .socials {
+        display: none;
+    }
+
+    /******* Intro *******/
+    #intro {
+        padding: 0 1.5rem;
+    }
+    
+    #intro img {
+        display: none;
+    }
+
+    svg {
+        width: 170%;
+        float: center;
+    }
+
+    .lftr button {
+        float: none;
+        align-self: center !important;
+        margin: 0;
+    }
+
+    .lftr h2 {
+        font-size: 30px;
+    }
+
+    /******* Experience *******/
+    #xp {
+        height: 100%;
+    }
+
+    .main-timeline .description {
+        color: var(--ycolor);
+    }
+
+    /******* Skills *******/
+
+    #tag-cloud {
+        margin: 0;
+        padding: 0;
+    }
+
+    .skil {
+        align-self: center;
+        height: 100%;
+        width: 100%;
+        border-radius: 15px;
+        padding: 0;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .shover:after{
+        display: none;
+    }
+
+    /******* Projects *******/
+    .contained  {
+        margin: 2rem 0;
+        width: 100%;
+        height: 525px;
+    }
+
+    .flap {
+        display: none;
+    }
+
+    .listy li {
+        display: block;
+    }
+    
+    /******* Contact *******/
+    #contact {
+        height: 100%;
+    }
+
+    .mq {
+        display: unset;
+    }
+
+    .ima {
+        display: none;
+    }
+
+    .mq ul {
+        margin: 5rem 0 2rem;
+    }
+
+    .mq .pro-ln {
+        color: var(--purple2);
+        margin-right: 2.5rem;
+    }
+}
