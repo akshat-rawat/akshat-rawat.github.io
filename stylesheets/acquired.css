@@ -561,12 +561,12 @@ svg {
   background: url(../images/sudoku.gif) white;
 }
 
-.g2048::before {
-  background: url(../images/2048.gif) white;
+.cf::before {
+  background: url(../images/crowdfund.jpg) white;
 }
 
-.g2048::after {
-  background: url(../images/2048.gif) white;
+.cf::after {
+  background: url(../images/crowdfund.jpg) white;
 }
 
 .op::before {
