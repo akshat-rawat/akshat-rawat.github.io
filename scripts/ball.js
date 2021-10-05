@@ -80,14 +80,6 @@ var entries = [
     tooltip: 'GitHub',
   },
   {
-    image: 'https://media.giphy.com/media/UTMsAdkvHGBu2L5NC7/giphy.gif',
-    width: '60',
-    height: '60',
-    url: '/',
-    target: '_top',
-    tooltip: 'Express',
-  },
-  {
     image: 'images/cpp.png',
     width: '60',
     height: '60',
@@ -158,6 +150,22 @@ var entries = [
     url: '/',
     target: '_top',
     tooltip: 'Ganache',
+  },
+  {
+    image: 'https://media.giphy.com/media/gdYlLuOeY13P8rzgK0/giphy.gif',
+    width: '60',
+    height: '60',
+    url: '/',
+    target: '_top',
+    tooltip: 'Flutter',
+  },
+  {
+    image: 'https://media.giphy.com/media/Ri2TUcKlaOcaDBxFpY/giphy.gif',
+    width: '60',
+    height: '60',
+    url: '/',
+    target: '_top',
+    tooltip: 'Firebase',
   },
 ]
 
