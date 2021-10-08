@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: akshat-rawat.github.io
+Token: 9ec64ab1861d24f6a532547f1bd153f9ce7b707a6984a951ef9eae03326839fc
